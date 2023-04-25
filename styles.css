@@ -1,0 +1,111 @@
+@import url(images/icon-view.svg);
+
+body {
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    width: 270px;
+    border: solid;
+    border-width: 0.1px;
+    border-radius: 5px;
+}
+
+.main-box {
+    background-color: hsl(216, 50%, 16%);
+    width: 270px;
+    height: 500px;
+    margin: 10%;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.img-container {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: url(images/image-equilibrium.jpg);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layover {
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.img-container:hover .layover {
+    opacity: 0.8;
+}
+
+.text-style {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    
+}
+
+.title {
+    color: #fff;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+.para {
+    color: hsl(215, 32%, 27%);
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+}
+.rank {
+    color: white;
+    margin: 10px 110px 10px 5px;  
+    cursor: pointer; 
+}
+
+.rank:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    color: hsl(215, 32%, 27%);
+    margin: 10px auto 10px 5px;
+}
+
+.artist-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img {
+    width: 30px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+.artist-creation {
+    color:hsl(215, 32%, 27%);
+    margin: 10px 5px;
+}
+
+.artist-name {
+    color: #fff;
+    cursor: pointer;
+}
+
+.artist-name:hover {
+    color: hsl(178, 100%, 50%);
+}
